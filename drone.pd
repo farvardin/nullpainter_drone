@@ -45,21 +45,20 @@
 #X obj 722 139 negate;
 #N canvas 0 50 647 424 (subpatch) 0;
 #X array output 100 float 1;
-#A 0 0.016181 0.00335694 -0.00650366 -0.01458 -0.0234831 -0.0333566
--0.0383059 -0.0402833 -0.043898 -0.0468723 -0.0392857 -0.0323803 -0.0253636
--0.0179129 -0.0106303 -0.00421963 0.000724208 0.0065569 0.0179145 0.0287822
-0.0264159 0.0217308 0.0202444 0.0194592 0.0182991 0.0168981 0.0155269
-0.0143653 0.0134831 0.0159341 0.0206295 0.0186091 0.0127735 0.00768295
-0.00356206 0.000188097 -0.00245765 -0.00387169 -0.00109915 0.00422729
-0.00614737 0.00586144 0.0066548 0.00853697 0.00937985 0.0112071 0.0142552
-0.0172641 0.0199007 0.0222191 0.0242102 0.0258349 0.0274484 0.0296222
-0.0322631 0.0345633 0.0378176 0.0428216 0.0473632 0.0492242 0.0497818
-0.049027 0.0417223 0.0305696 0.0211688 0.0168221 0.0159787 0.0115363
-0.00344507 -0.00210983 -0.00315089 -0.000174301 0.00623225 0.013438
-0.0173667 0.0191669 0.0227692 0.0268923 0.0256906 0.0190551 0.0106712
-0.00408885 -0.00258958 -0.0116418 -0.0167114 -0.0177192 -0.0169056
--0.0157351 -0.0148918 -0.013783 -0.0147084 -0.0192209 -0.0210156 -0.017129
--0.0109493 -0.00416672 0.00176374 0.00615529 0.0090947 0.0106441;
+#A 0 -0.10374 -0.107983 -0.109419 -0.112839 -0.117657 -0.123 -0.131973
+-0.138186 -0.141622 -0.146451 -0.150135 -0.15186 -0.153521 -0.156578
+-0.15469 -0.152881 -0.157434 -0.111601 -0.100333 -0.0945519 -0.0689086
+-0.0850263 -0.0873038 -0.0844584 -0.0561682 -0.0354427 -0.0239672 -0.0622771
+-0.080245 -0.0960409 -0.0840483 -0.0809839 -0.0803908 -0.0738033 -0.0691821
+-0.0673473 -0.0702721 -0.0747349 -0.0746358 -0.0762061 -0.0753617 -0.0701251
+-0.0598563 -0.0485293 -0.0423086 -0.0388584 -0.0349018 0.0127194 0.0476305
+0.0688918 0.0844231 0.0964325 0.103935 0.0865296 0.0493726 0.00424956
+-0.0220835 -0.0434682 -0.0424364 -0.0305098 0.00320972 0.0335031 0.0557284
+0.0621182 0.0552053 0.0469596 0.0459404 0.0571789 0.0688631 0.0804734
+0.0841485 0.0836433 0.083249 0.0850209 0.0882317 0.0920997 0.0964188
+0.0987178 0.100815 0.104862 0.109667 0.113045 0.116561 0.121779 0.126806
+0.130941 0.133633 0.142967 0.142754 0.122691 0.0925969 0.0753093 0.0637138
+0.0540662 0.0542048 0.0847077 0.0966674 0.105534 0.11225 0.117484;
 #X coords 0 1 99 -1 200 140 1;
 #X restore 1230 155 graph;
 #X obj 1237 396 tabwrite~ output;
@@ -498,7 +497,7 @@ rmspeak 0 \, lookahead 5;
 #X obj 310 686 s overdrive;
 #X obj 511 488 r overdrive;
 #X obj 313 654 hsl 128 15 0 100 0 0 empty s-overdrive empty -2 -8 0
-10 -262144 -1 -1 2159 1;
+10 -262144 -1 -1 5715 1;
 #X obj 462 546 expr $f1 * (1+$f2);
 #X obj 517 515 t b f;
 #X obj 829 491 r overdrive;
@@ -531,33 +530,33 @@ rmspeak 0 \, lookahead 5;
 #X obj 680 738 osc~;
 #X floatatom 654 707 5 0 0 0 - - -;
 #X floatatom 726 707 5 0 0 0 - - -;
-#N canvas 306 190 583 722 panel 1;
+#N canvas 97 182 583 722 panel 1;
 #X obj 29 154 cnv 15 300 420 empty empty empty 20 12 0 14 -1 -66577
 0;
 #X obj 29 9 cnv 15 300 140 empty empty empty 20 12 0 14 -1 -66577 0
 ;
 #X obj 154 206 vsl 15 64 0 1 0 0 osc3_freq sensor-osc3_freq osc3_freq
-0 -9 0 10 -262144 -1 -1 2904 1;
+0 -9 0 10 -262144 -1 -1 1575 1;
 #X obj 66 206 vsl 15 64 0 1 0 0 osc2_freq sensor-osc2_freq osc2_freqzzz
-0 -9 0 10 -262144 -1 -1 2559 1;
+0 -9 0 10 -262144 -1 -1 984 1;
 #X obj 240 207 vsl 15 64 0 1 0 0 osc4_freq sensor-osc4_freq osc4_freq
-0 -9 0 10 -262144 -1 -1 2805 1;
+0 -9 0 10 -262144 -1 -1 1575 1;
 #X obj 155 332 vsl 15 64 0 1 0 0 osc3_amt sensor-osc3_amt osc3_amt
-0 -9 0 10 -262144 -1 -1 5414 1;
+0 -9 0 10 -262144 -1 -1 1260 1;
 #X obj 68 334 vsl 15 64 0 1 0 0 osc2_amt sensor-osc2_amt osc2_amt 0
--9 0 10 -262144 -1 -1 3101 1;
+-9 0 10 -262144 -1 -1 3150 1;
 #X obj 240 333 vsl 15 64 0 1 0 0 osc4_amt sensor-osc4_amt osc4_amt
-0 -9 0 10 -262144 -1 -1 2166 1;
+0 -9 0 10 -262144 -1 -1 1260 1;
 #X obj 234 515 hradio 13 1 0 4 osc4_octave sensor-osc4_octave osc4_octave
 0 -8 0 10 -262144 -1 -1 1;
 #X obj 145 515 hradio 13 1 0 4 osc3_octave sensor-osc3_octave osc3_octave
-0 -8 0 10 -262144 -1 -1 0;
-#X obj 50 515 hradio 13 1 0 4 osc2_octave sensor-osc2_octave osc2_octave
 0 -8 0 10 -262144 -1 -1 1;
+#X obj 50 515 hradio 13 1 0 4 osc2_octave sensor-osc2_octave osc2_octave
+0 -8 0 10 -262144 -1 -1 0;
 #X obj 63 442 tgl 15 0 osc2_sin sensor-osc2_sin osc2_sin 17 7 0 10
 -262144 -1 -1 1 1;
 #X obj 63 463 tgl 15 0 osc2_tri sensor-osc2_tri osc2_tri 17 7 0 10
--262144 -1 -1 0 1;
+-262144 -1 -1 1 1;
 #X obj 148 441 tgl 15 0 osc3_sin sensor-osc3_sin osc3_sin 17 7 0 10
 -262144 -1 -1 1 1;
 #X obj 148 462 tgl 15 0 osc3_tri sensor-osc3_tri osc3_tri 17 7 0 10
@@ -567,14 +566,14 @@ rmspeak 0 \, lookahead 5;
 #X obj 239 463 tgl 15 0 osc4_tri sensor-osc4_tri osc4_tri 17 7 0 10
 -262144 -1 -1 0 1;
 #X obj 67 46 vsl 15 64 0 1 0 0 osc1_freq sensor-osc1_freq osc1_freq
-0 -9 0 10 -262144 -1 -1 2953 1;
-#X obj 232 50 hradio 13 1 0 4 osc1_octave sensor-osc1_octave osc1_octave
-0 -8 0 10 -262144 -1 -1 1;
-#X obj 134 49 tgl 15 0 osc1_sin sensor-osc1_sin osc1_sin 17 7 0 10
+0 -9 0 10 -262144 -1 -1 4085 1;
+#X obj 195 48 hradio 13 1 0 4 osc1_octave sensor-osc1_octave osc1_octave
+0 -8 0 10 -262144 -1 -1 0;
+#X obj 120 49 tgl 15 0 osc1_sin sensor-osc1_sin osc1_sin 17 7 0 10
 -262144 -1 -1 1 1;
-#X obj 134 71 tgl 15 0 osc1_tri sensor-osc1_tri osc1_tri 17 7 0 10
+#X obj 120 71 tgl 15 0 osc1_tri sensor-osc1_tri osc1_tri 17 7 0 10
 -262144 -1 -1 1 1;
-#X floatatom 229 95 5 0 0 0 - - -;
+#X floatatom 187 107 5 0 0 0 - - -;
 #X obj 129 156 cnv 19 95 20 empty empty MODULATOR 5 11 0 14 -1 -262144
 0;
 #X obj 124 10 cnv 19 95 20 empty empty OSCILLATOR 5 11 0 14 -1 -262144
@@ -587,9 +586,9 @@ rmspeak 0 \, lookahead 5;
 0;
 #X obj 38 119 cnv 19 80 20 empty empty FREQUENCY 5 11 0 10 -1 -262144
 0;
-#X obj 153 47 cnv 19 30 20 empty empty sin 5 11 0 10 -1 -262144 0;
-#X obj 153 69 cnv 19 30 20 empty empty tri 5 11 0 10 -1 -262144 0;
-#X obj 233 68 cnv 19 50 20 empty empty OCTAVE 5 11 0 10 -1 -262144
+#X obj 139 47 cnv 19 30 20 empty empty sin 5 11 0 10 -1 -262144 0;
+#X obj 139 69 cnv 19 30 20 empty empty tri 5 11 0 10 -1 -262144 0;
+#X obj 196 66 cnv 19 50 20 empty empty OCTAVE 5 11 0 10 -1 -262144
 0;
 #X obj 167 438 cnv 19 30 20 empty empty sin 5 11 0 10 -1 -262144 0
 ;
@@ -616,11 +615,11 @@ rmspeak 0 \, lookahead 5;
 #X obj 29 579 cnv 15 300 80 empty empty empty 20 12 0 14 -1 -66577
 0;
 #X obj 155 613 tgl 15 0 lfo sensor-lfo lfo 17 7 0 10 -262144 -1 -1
-1 1;
+0 1;
 #X obj 238 613 tgl 15 0 vco sensor-vco vco 17 7 0 10 -262144 -1 -1
 0 1;
 #X obj 67 613 tgl 15 0 sub-osc sensor-sub-osc sub-osc 17 7 0 10 -262144
--1 -1 0 1;
+-1 -1 1 1;
 #X obj 57 482 cnv 19 60 20 empty empty WAVEFORM 5 11 0 10 -1 -262144
 0;
 #X obj 140 482 cnv 19 60 20 empty empty WAVEFORM 5 11 0 10 -1 -262144
@@ -628,7 +627,7 @@ rmspeak 0 \, lookahead 5;
 #X obj 228 482 cnv 19 60 20 empty empty WAVEFORM 5 11 0 10 -1 -262144
 0;
 #X obj 51 185 nbx 4 14 -1e+37 1e+37 0 0 empty osc2_freq empty 0 -8
-0 10 -1 -262144 -1 0.40625 256;
+0 10 -1 -262144 -1 0.15625 256;
 #X obj 335 9 cnv 15 150 140 empty empty empty 20 12 0 14 -1 -66577
 0;
 #X obj 334 154 cnv 15 150 320 empty empty empty 20 12 0 14 -1 -66577
@@ -636,27 +635,27 @@ rmspeak 0 \, lookahead 5;
 #X obj 334 479 cnv 15 150 180 empty empty empty 20 12 0 14 -1 -66577
 0;
 #X obj 382 548 vsl 15 64 0 1 0 0 vol \$0-r-vol Volume 0 -9 0 10 -262144
--1 -1 787 1;
+-1 -1 2559 1;
 #X obj 355 387 hsl 64 15 0 1 0 0 flanger-mix sensor-flanger-mix flanger-mix
--2 -8 0 10 -262144 -1 -1 1575 1;
+-2 -8 0 10 -262144 -1 -1 148 1;
 #X obj 353 327 hsl 64 15 0 1 0 0 flanger-feedback sensor-flanger-feedback
-flanger-feedback -2 -8 0 10 -262144 -1 -1 2215 1;
+flanger-feedback -2 -8 0 10 -262144 -1 -1 3839 1;
 #X obj 352 270 hsl 64 15 0 1 0 0 flanger-intensity sensor-flanger-intensity
-flanger-intensity -2 -8 0 10 -262144 -1 -1 2461 1;
+flanger-intensity -2 -8 0 10 -262144 -1 -1 2756 1;
 #X obj 355 209 hsl 64 15 0 1 0 0 flanger-speed sensor-flanger-speed
-flanger-speed -2 -8 0 10 -262144 -1 -1 1378 1;
+flanger-speed -2 -8 0 10 -262144 -1 -1 2609 1;
 #X obj 356 101 hsl 64 15 0 1 0 0 filter-resonance sensor-filter-resonance
-filter-resonance -2 -8 0 10 -262144 -1 -1 2067 1;
+filter-resonance -2 -8 0 10 -262144 -1 -1 3691 1;
 #X obj 356 48 hsl 64 15 0 1 0 0 filter-cutoff sensor-filter-cutoff
-filter-cutoff -2 -8 0 10 -262144 -1 -1 2018 1;
+filter-cutoff -2 -8 0 10 -262144 -1 -1 1260 1;
 #X obj 356 498 hsl 64 15 0 100 0 0 s-overdrive sensor-overdrive overdrive
--2 -8 0 10 -262144 -1 -1 1071 1;
+-2 -8 0 10 -262144 -1 -1 2835 1;
 #X obj 369 11 cnv 19 95 20 empty empty FILTER 5 11 0 14 -1 -262144
 0;
 #X obj 140 185 nbx 4 14 -1e+37 1e+37 0 0 empty osc3_freq empty 0 -8
-0 10 -1 -262144 -1 0.460938 256;
+0 10 -1 -262144 -1 0.25 256;
 #X obj 225 185 nbx 4 14 -1e+37 1e+37 0 0 empty osc4_freq empty 0 -8
-0 10 -1 -262144 -1 0.445312 256;
+0 10 -1 -262144 -1 0.25 256;
 #X obj 367 623 cnv 19 50 20 empty empty VOLUME 5 11 0 10 -1 -262144
 0;
 #X obj 369 161 cnv 19 95 20 empty empty FLANGER 5 11 0 14 -1 -262144
@@ -670,43 +669,45 @@ filter-cutoff -2 -8 0 10 -262144 -1 -1 2018 1;
 #X obj 56 584 cnv 19 50 20 empty empty SUB_OSC 5 11 0 10 -1 -262144
 0;
 #X obj 53 26 nbx 4 14 -1e+37 1e+37 0 0 empty osc1_freq empty 0 -8 0
-10 -1 -262144 -1 0.46875 256;
+10 -1 -262144 -1 0.648438 256;
 #X obj 353 68 cnv 19 60 20 empty empty CUTOFF 5 11 0 10 -1 -262144
 0;
 #X obj 429 49 nbx 4 14 -1e+37 1e+37 0 0 empty filter-cutoff empty 0
--8 0 10 -1 -262144 -1 0.320312 256;
+-8 0 10 -1 -262144 -1 0.2 256;
 #X obj 428 102 nbx 4 14 -1e+37 1e+37 0 0 empty filter-resonance empty
-0 -8 0 10 -1 -262144 -1 0.328125 256;
+0 -8 0 10 -1 -262144 -1 0.585938 256;
 #X obj 353 119 cnv 19 60 20 empty empty RESONANCE 5 11 0 10 -1 -262144
 0;
-#X obj 218 115 cnv 19 90 20 empty empty DRONE1 5 11 0 26 -1 -262144
+#X obj 220 103 cnv 19 90 20 empty empty DRONE1 5 11 0 26 -1 -262144
 0;
 #X obj 353 518 cnv 19 70 20 empty empty OVERDRIVE 5 11 0 10 -1 -262144
 0;
 #X obj 53 309 nbx 4 14 -1e+37 1e+37 0 0 empty osc2_amt empty 0 -8 0
-10 -1 -262144 -1 0.492188 256;
+10 -1 -262144 -1 0.5 256;
 #X obj 142 309 nbx 4 14 -1e+37 1e+37 0 0 empty osc3_amt empty 0 -8
-0 10 -1 -262144 -1 0.859375 256;
+0 10 -1 -262144 -1 0.2 256;
 #X obj 227 309 nbx 4 14 -1e+37 1e+37 0 0 empty osc4_amt empty 0 -8
-0 10 -1 -262144 -1 0.34375 256;
+0 10 -1 -262144 -1 0.2 256;
 #X obj 349 291 cnv 19 70 20 empty empty INTENSITY 5 11 0 10 -1 -262144
 0;
 #X obj 433 209 nbx 4 14 -1e+37 1e+37 0 0 empty flanger-speed empty
-0 -8 0 10 -1 -262144 -1 0.21875 256;
+0 -8 0 10 -1 -262144 -1 0.414062 256;
 #X obj 431 269 nbx 4 14 -1e+37 1e+37 0 0 empty flanger-intensity empty
-0 -8 0 10 -1 -262144 -1 0.390625 256;
+0 -8 0 10 -1 -262144 -1 0.4375 256;
 #X obj 430 326 nbx 4 14 -1e+37 1e+37 0 0 empty flanger-feedback empty
-0 -8 0 10 -1 -262144 -1 0.351562 256;
+0 -8 0 10 -1 -262144 -1 0.609375 256;
 #X obj 430 385 nbx 4 14 -1e+37 1e+37 0 0 empty flanger-mix empty 0
--8 0 10 -1 -262144 -1 0.25 256;
+-8 0 10 -1 -262144 -1 0.0234375 256;
 #X obj 350 345 cnv 19 70 20 empty empty FEEDBACK 5 11 0 10 -1 -262144
 0;
 #X obj 350 407 cnv 19 70 20 empty empty MIX 5 11 0 10 -1 -262144 0
 ;
 #X obj 431 499 nbx 4 14 -1e+37 1e+37 0 0 empty overdrive empty 0 -8
-0 10 -1 -262144 -1 17 256;
+0 10 -1 -262144 -1 45 256;
 #X obj 426 624 nbx 4 14 -1e+37 1e+37 0 0 empty vol empty 0 -8 0 10
--1 -262144 -1 0.125 256;
+-1 -262144 -1 0.40625 256;
+#X obj 221 125 cnv 19 95 20 empty empty by_nullpainter 5 11 0 12 -1
+-262144 0;
 #X connect 18 0 21 0;
 #X restore 81 702 pd panel;
 #X floatatom 338 176 5 0 0 0 - - -;
