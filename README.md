@@ -1,8 +1,20 @@
 # nullPainter Drone I
 
+This is a fork of the [nullPainter Drone I](https://github.com/nullpainter/drone/).
+
 The nullPainter Drone I is a four-oscillator drone synthesizer, driven by PureData Vanilla and running on a Raspberry Pi 4 Model B.
 
-<img src="images/hero.gif" title="Das Blinkenlights"></a>
+While the original version was made for a physical hardware, this version is adding a PureData panel and an interface for Akai MidiMix (which you can adapt for your own midi controller).
+
+<img src="images/panel.png" title="PureData panel"></a>
+
+<img src="images/midimix_sheet.png" title="midimix"></a>
+
+
+get the [midimix](images/midimix_sheet_nullpainter_drone.pdf) sheet to print.
+
+
+From the original README:
 
 &nbsp;
 
