@@ -13,6 +13,21 @@ While the original version was made for a physical hardware, this version is add
 
 get the [midimix](images/midimix_sheet_nullpainter_drone.pdf) sheet to print.
 
+To connect to your controller, on Linux you can use jack, or list your midi devices with:
+
+- aconnect -l
+
+then 
+
+- aconnect device_out:port device_in:port
+
+(for example: ``aconnect 20:0 128:0``)
+
+
+
+
+----------------------------
+
 
 From the original README:
 
