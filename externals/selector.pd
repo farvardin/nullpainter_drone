@@ -1,4 +1,4 @@
-#N canvas 30 191 1835 1029 10;
+#N canvas 30 97 1835 983 10;
 #X obj 149 599 outlet~;
 #X msg 216 337 sin;
 #X msg 344 356 saw;
@@ -58,9 +58,9 @@ frequency to zero for the first range.;
 #X text 553 323 Output freq \, if any oscillators are set;
 #X text 109 158 Calculate max frequency with sub-osc octave adjuster
 ;
-#X obj 892 120 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
-#000000 #000000;
-#X floatatom 940 135 5 0 0 0 - - -, f 5;
+#X obj 892 120 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X floatatom 940 135 5 0 0 0 - - -;
 #X obj 800 90 t b f;
 #X connect 1 0 13 1;
 #X connect 2 0 14 1;

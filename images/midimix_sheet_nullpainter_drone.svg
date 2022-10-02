@@ -2,6 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
    xml:space="preserve"
@@ -9,15 +17,7 @@
    height="210mm"
    viewBox="0 0 1122.5197 793.7008"
    sodipodi:docname="midimix_sheet_nullpainter_drone.svg"
-   inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"><metadata
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
@@ -1030,15 +1030,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1280"
-     inkscape:window-height="989"
+     inkscape:window-height="968"
      id="namedview4"
      showgrid="false"
      units="mm"
-     inkscape:zoom="0.5"
-     inkscape:cx="542"
-     inkscape:cy="613"
-     inkscape:window-x="1294"
-     inkscape:window-y="0"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="563.22356"
+     inkscape:cy="487.36988"
+     inkscape:window-x="103"
+     inkscape:window-y="83"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer3"
      inkscape:showpageshadow="2"
@@ -1450,6 +1450,7 @@
      sodipodi:role="line">VOLUME</tspan></text>
 
 
+
 <text
    id="text13089"
    y="562.17725"
@@ -1461,6 +1462,7 @@
      x="159.30019"
      id="tspan13087"
      sodipodi:role="line">OVERDRIVE    AMOUNT  2     AMOUNT  3     AMOUNT 4    </tspan></text>
+
 
 
 <text
@@ -1476,6 +1478,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';stroke-width:0.835074">DRONE 1</tspan></text>
 
 
+
 <text
    id="text13097"
    y="75.238457"
@@ -1487,6 +1490,7 @@
      x="855.83374"
      sodipodi:role="line"
      id="tspan13099">by nullpainter</tspan></text>
+
 
 
 <text
@@ -1502,6 +1506,7 @@
      sodipodi:role="line">CUTOFF        RESONANCE     FL Speed     FL Intensity   FL FEEDB       FL mix                                                      SEND ALL</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9546px;line-height:1.25;font-family:a_FuturaOrto;-inkscape-font-specification:a_FuturaOrto;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.373864"
@@ -1515,6 +1520,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864">OCTAVE         OCTAVE            OCTAVE          OCTAVE    </tspan></text>
 
 
+
 <text
    id="text13117"
    y="424.76788"
@@ -1526,6 +1532,7 @@
      x="170.96637"
      id="tspan13115"
      sodipodi:role="line">FREQ 1          FREQ 2          FREQ 3            FREQ 4   </tspan></text>
+
 
 
 <text
@@ -1546,6 +1553,7 @@
      id="tspan1392">TRI </tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9546px;line-height:0;font-family:a_FuturaOrto;-inkscape-font-specification:a_FuturaOrto;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.373864"
@@ -1561,7 +1569,8 @@
      x="274.96637"
      y="514.71796"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.25;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864"
-     id="tspan1438">TRI </tspan></text><text
+     id="tspan1438">TRI </tspan></text>
+<text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9546px;line-height:0;font-family:a_FuturaOrto;-inkscape-font-specification:a_FuturaOrto;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.373864"
    x="366.96637"
@@ -1576,7 +1585,8 @@
      x="366.96637"
      y="514.71796"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.25;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864"
-     id="tspan1444">TRI </tspan></text><text
+     id="tspan1444">TRI </tspan></text>
+<text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9546px;line-height:0;font-family:a_FuturaOrto;-inkscape-font-specification:a_FuturaOrto;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.373864"
    x="458.96637"
@@ -1591,7 +1601,8 @@
      x="458.96637"
      y="514.71796"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.25;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864"
-     id="tspan1450">TRI </tspan></text><text
+     id="tspan1450">TRI </tspan></text>
+<text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9546px;line-height:1.25;font-family:a_FuturaOrto;-inkscape-font-specification:a_FuturaOrto;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.373864"
    x="900.21899"
@@ -1601,7 +1612,8 @@
      id="tspan1793"
      x="900.21899"
      y="305.58456"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864">sub osc</tspan></text><text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864">sub osc</tspan></text>
+<text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9546px;line-height:1.25;font-family:a_FuturaOrto;-inkscape-font-specification:a_FuturaOrto;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.373864"
    x="926.57733"
@@ -1611,7 +1623,8 @@
      id="tspan1797"
      x="926.57733"
      y="425.58456"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864">LFO</tspan></text><text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864">LFO</tspan></text>
+<text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9546px;line-height:1.25;font-family:a_FuturaOrto;-inkscape-font-specification:a_FuturaOrto;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.373864"
    x="926.68201"
@@ -1621,7 +1634,20 @@
      id="tspan1801"
      x="926.68201"
      y="502.37781"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864">VCO</tspan></text><text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864">VCO</tspan></text>
+<text
    xml:space="preserve"
    id="text2495"
-   style="font-family:'Chela One';font-size:13.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Chela One';white-space:pre;shape-inside:url(#rect2497)" /></g></svg>
+   style="font-family:'Chela One';font-size:13.33333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Chela One';white-space:pre;shape-inside:url(#rect2497)" />
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.95460033px;line-height:1.25;font-family:a_FuturaOrto;-inkscape-font-specification:a_FuturaOrto;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.373864"
+   x="530.96637"
+   y="424.76788"
+   id="text1156"><tspan
+     sodipodi:role="line"
+     id="tspan1154"
+     x="530.96637"
+     y="424.76788"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Apex Mk2';-inkscape-font-specification:'Apex Mk2';text-align:start;text-anchor:start;stroke-width:0.373864">NOISE           cutoff         reson            pan fx  </tspan></text>
+</g></svg>
